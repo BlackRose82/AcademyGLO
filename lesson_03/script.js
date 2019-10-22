@@ -18,7 +18,7 @@ console.log(typeof deposit);
 console.log(typeof money);
 console.log(typeof income);
 console.log(Math.ceil(mission/budgetMonth));
-let budgetDay = 30;
+let budgetDay = budgetMonth/30;
 console.log(Math.floor(budgetDay));
 if(budgetDay>800){
  console.log("Высокий уровень дохода");
