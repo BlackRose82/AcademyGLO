@@ -12,7 +12,7 @@ let question3 = prompt('Какие обязательные ежемесячны
 let question4 = prompt('Во сколько это обойдется?');
 let budgetMonth = money - question2 - question4;
 
-console.log('Перечислите возможные расходы за рассчитываемый период', Array(addExpenses));
+console.log(addExpenses.split(","));
 console.log('Есть ли у вас депозит в банке?', deposit);
 console.log(typeof deposit);
 console.log(typeof money);
